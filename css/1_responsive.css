@@ -1,0 +1,40 @@
+@media screen and (min-width: 550px) {
+    
+    body {
+        font-size: 14px;        
+    }
+}
+
+@media screen and (min-width: 768px) {    
+    body {
+        font-size: 16px;
+    }
+    
+    /*change hero image*/
+    /*change project images*/
+    .proj {
+        width: 30%;           
+    }
+    
+    .navlinks {
+        padding-top: 3%;
+    }
+}
+
+@media screen and (min-width: 900px) {    
+    .container {
+        margin-right: auto;
+        margin-left: auto;
+        width: 900px;
+    }
+    
+    body {
+        font-size: 18px;
+    }
+    
+    .shadoweffect {
+        box-shadow: 0px 0px 15px #888888;
+    }
+    
+    /*change hero image*/
+}
