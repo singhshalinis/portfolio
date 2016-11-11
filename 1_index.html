@@ -7,9 +7,6 @@
         <link rel="stylesheet" href="css/1_main.css">
         <link rel="stylesheet" href="css/1_responsive.css">
     
-        <!--Google Fonts -->
-        <link href="https://fonts.googleapis.com/css?family=Lato:200,300" rel="stylesheet">
-
         <!--Meta-->
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width,initial-scale=1">
@@ -18,15 +15,18 @@
     </head>
     
     <body>        
+        
         <div class="container shadoweffect">
             
-            <header class="row headercolor container">
+            <!-- The header has the logo, name, and nav links -->
+            <header class="row header-color container">
                 
                 <div class="title-logo">
-                    <img class="logoimage" src="images/logo-100.png" 
-                         srcset="images/logo-100.png 100w, 
-                                 images/logo-200.png 200w, 
-                                 images/logo-500.png 500w" alt="Company Logo">
+                    <img class="logo-image" src="images/logo-100.png" 
+                         srcset="images/logo-200.png 200w, 
+                                 images/logo-500.png 500w" 
+                         sizes="(min-width: 768px) 130px, 82px"
+                         alt="Company Logo">
                 </div>
 
                 <div class="title-desc">
@@ -34,25 +34,30 @@
                     <h3 class="title-role">Full Stack Developer</h3>
 
                     <nav class="navlinks">
+                        <a class="navitems" href="1_index.html">Home </a>.
                         <a class="navitems" href="about.html">About </a>.
                         <a class="navitems" href="contactUs.html">Contact</a>
                     </nav>
                 </div> 
             </header>
             
+            <!-- The main section consists of overall content including a hero image, and project details -->
             <main class="row">
                 
+                <!-- The hero image -->
                 <div class="row">                    
                     <img class="hero" src="images/hero_small.png" 
                          srcset="images/hero_small.png 419w, 
                                  images/hero_medium.png 699w, 
                                  images/hero_large.png 1000w,
                                  images/hero_largest.png 1200w"
+                         sizes="(min-width: 320px) 100vw, 100vw"
                          alt="Hero Image">
                 </div>                    
                 
+                <!-- It is used to format and draw a horizontal line -->
                 <div class="row hralign">
-                    <div class="featuredline">
+                    <div class="featured-line">
                         <h2 class="row featured">Featured Projects</h2>
 
                         <div class="row hralign">
@@ -61,45 +66,49 @@
                     </div>
                 </div>
                 
-                <article class="container articlemargin">          
+                <!-- Project details -->
+                <article class="container article-margin">          
                                         
                     <section class="proj">
                         
-                        <img class="projimage" src="images/movieTrailer_small.png"
+                        <img class="proj-image" src="images/movieTrailer_small.png"
                              srcset="images/movieTrailer_small.png 450w,
                                      images/movieTrailer_large.png 800w"
-                             alt="Project 2">
+                             sizes="(min-width: 900px) 30vw, 64vw"
+                             alt="Project Movie Trailer">
                         
-                        <div class="projdetails">
+                        <div class="proj-details">
                             <p>Movie Trailer Website</p>
-                            <a href="#" ><span class="projectlink">Link to project</span></a>
+                            <a href="https://github.com/singhshalinis/movieTrailerWebsite" ><span class="project-link">https://github.com/singhshalinis/movieTrailerWebsite</span></a>
                         </div>
                         
                     </section>
                     
                     <section class="proj">
                         
-                        <img class="projimage" src="images/portfolio_small.png"
+                        <img class="proj-image" src="images/portfolio_small.png"
                              srcset="images/portfolio_small.png 450w, 
                                      images/portfolio_large.png 800w"
-                             alt="Project 2">
+                             sizes="(min-width: 900px) 30vw, 64vw"
+                             alt="Project Portfolio">
                         
-                        <div class="projdetails">
+                        <div class="proj-details">
                             <p>Build a Portfolio</p>
-                            <a href="#"><span class="projectlink">Link to project</span></a>
+                            <a href="https://github.com/singhshalinis/portfolio"><span class="project-link">https://github.com/singhshalinis/portfolio</span></a>
                         </div>
+                        
                     </section>              
                     
                 </article>
             
             </main>
             
+            <!-- Footer -->
             <footer class="row">
                 <h5 class="footeritems">&copy; 2016 The Jhoola</h5>
             </footer>
+            
         </div>
+        
     </body>
-
-
-
 </html>

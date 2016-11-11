@@ -1,6 +1,4 @@
-/* * {
-    border: 1px solid blue !important;
-}*/
+/* CSS classes are mostly in order of their use in html */
 
 @font-face {
     font-family: 'open_sanscondensed_light';
@@ -12,8 +10,6 @@
     font-weight: normal;
     font-style: normal;
 }
-
-
 
 html, body {
     width: 100%;
@@ -27,10 +23,6 @@ body {
     font-size: 12px;
     background-color: #f6f6f6;
     transition: font-size .2s ease-in;
-}
-
-.shadoweffect {
-    
 }
 
 .container {
@@ -47,7 +39,7 @@ header {
     padding: 2%;
 }
 
-.headercolor {
+.header-color {
     background-color: #f44336;
 }
 
@@ -55,7 +47,7 @@ header {
     width: 40%;    
 }
 
-.logoimage {
+.logo-image {
     width: 70%;
     max-width: 130px;
     transition: width .2s ease-in;
@@ -85,12 +77,10 @@ header {
 .navitems {
     font-size: 1.12em;
     margin: 0;
-    text-transform: lowercase;
-    
+    text-transform: lowercase;    
 }
 
-nav a:hover {
-    
+nav a:hover {    
     color: white;
 }
 
@@ -107,7 +97,7 @@ a:link {
     width: 100%;
 }
 
-.featuredline {
+.featured-line {
     display: inline-block;
     margin: auto;
 }
@@ -125,8 +115,7 @@ hr {
     height: 2px;    
     color: #f44336; 
     background-color: #f44336;
-    margin-bottom: 20px;
-    
+    margin-bottom: 20px;    
 }
 
 .hrsize {
@@ -138,7 +127,7 @@ hr {
    text-align: center; 
 }
 
-.projdetails {
+.proj-details {
     color: #333333;
     font-size: 1.12em;
     margin: 0;
@@ -146,13 +135,13 @@ hr {
     text-align: left;
 }
 
-.projectlink {
+.project-link {
     color: #333333;
     font-size: 0.68em;
     text-align: left;
 }
 
-.articlemargin {
+.article-margin {
     margin-bottom: 40px; 
 }
 
@@ -164,7 +153,7 @@ hr {
     background-color: #f6f6f6;
 }
 
-.projimage {
+.proj-image {
     width: 100%;
 }
 
@@ -174,13 +163,27 @@ footer {
     padding: 1em;   
     text-align: center;
     background-color: #f44336;
-    font-size: 1em;
-    
+    font-size: 1em;    
 }
 
-h1, h3, h2, h5, p, img {
+h1, h3, h2, h4, h5, p, img {
     margin:0;
     padding: 0;
-    font-weight: normal;
-    
+    font-weight: normal;    
+}
+
+/* styles for about.html and contactUs.html pages */
+.about {    
+    color: #333333;
+    font-size: 1em;
+    text-align: center;
+    padding: 10px 0;    
+}
+
+.aboutSize {
+    height: 150px;
+}
+
+.text-italic {
+    font-style: italic;
 }

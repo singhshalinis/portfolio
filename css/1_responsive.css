@@ -1,27 +1,30 @@
-@media screen and (min-width: 550px) {
-    
+/* Media Queries */
+@media screen and (min-width: 550px) {    
+    /* The font sizes are changed as the viewport becomes larger. */
     body {
         font-size: 14px;        
     }
 }
 
-@media screen and (min-width: 768px) {    
+@media screen and (min-width: 768px) {     
     body {
         font-size: 16px;
     }
     
-    /*change hero image*/
-    /*change project images*/
+    /*change hero image - done via srcset*/ 
+    /*change project image size*/
     .proj {
         width: 30%;           
     }
     
+    /* Adding more padding when the viewport is bigger */
     .navlinks {
         padding-top: 3%;
     }
 }
 
-@media screen and (min-width: 900px) {    
+@media screen and (min-width: 900px) {     
+    /* Fix the size of the container when it exceedes 900px */
     .container {
         margin-right: auto;
         margin-left: auto;
@@ -36,5 +39,5 @@
         box-shadow: 0px 0px 15px #888888;
     }
     
-    /*change hero image*/
+    /*change hero image - done via srcset*/
 }
