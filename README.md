@@ -53,6 +53,7 @@ References, Credits & Acknowledgements
 	1. http://www.w3schools.com/
 	2. http://stackoverflow.com/	
 	3. Used imageMagicx to create images of different resolutions.
+	4. https://css-tricks.com/
 
 
 Contact Information
