@@ -4,7 +4,7 @@
 
 What is it? (Functionality)
 ---------------------------
-A fully responsive portfolio website that works on desktop, tablet and mobile phone. It showcases my featured projects and provides GitHub links to those.   
+A fully responsive portfolio website for desktop, tablet and mobile phone. It showcases featured projects and provides GitHub links to those projects.
 
 
 Last Update Date
